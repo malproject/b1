@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins:wght@100;700;900&display=swap');
+*{
+    font-family: 'Nerko One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: MyFont1;
+    src: url('Fonts/Crimson_Text/CrimsonText-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: MyFont;
+    src: url('Fonts/open-sans-v34-latin-regular.woff2') format('woff2');
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(228, 237, 236);
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: darkgreen;
+}
+h4{
+    font-family: MyFont;
+    color: darkslategrey;
+}
+p{
+    font-family: MyFont1;
+}
+a{
+    font-family: MyFont1;
+}
+span{
+    font-family:'Nerko One', cursive;
+}
+img:hover{
+    opacity: 0.6;
+}
+.header{
+height: 70px;
+background-color: rgb(66, 161, 243);
+color: black;
+}
+.header .nav-left h3{
+float: left;
+margin: 12px 10px;
+border: 1px dashed rgb(235, 226, 226);
+border-radius: 30px;
+padding: 10px;
+background-color: blanchedalmond;
+color: rgb(8, 5, 1);
+}
+.header .nav-right {
+float: right;
+margin-top: 30px;
+}
+.header .nav-right a{
+padding: 20px;
+color:white;
+font-weight: bold;
+text-decoration: none;
+}
+.header .nav-right a:hover{
+border: 1px solid black;
+border-radius: 20px;
+background-color: aliceblue;
+color: black;
+padding: 10px;
+}
+.world{
+display: flex;
+flex: wrap;
+text-align: center; 
+gap: 15px;    
+padding: 8px 2px;
+}
+.world .box2{
+width: 50%;
+overflow: hidden;
+padding: 5px 2px;
+}
+.world .box2 img{
+width: 800px;
+height: 500px;
+}
+.world .box3{
+width: 700px;
+}
+.trending{
+display: flex;
+padding:10px;
+}
+.trending .box{
+margin-left: 50px;
+padding: 10px;
+}
+.trending .box:hover{
+cursor: pointer;
+}
+.container {
+display: flex;
+}
+.container .box1{
+    margin-left: 40px;
+   
+    
+}
+.container .box2{
+margin-left: 80px; display:flexbox;
+}
+.container .box1 img:hover{
+cursor: pointer;
+}
+.container .box2 img:hover{
+cursor: pointer;
+}
+.footer{
+height: 100px;
+background-color: rgb(74, 85, 95);
+color: black;
+}
+.world .box2 .text-img h2{
+color: white;
+}
+.world .box2 .text-img p{
+color: white;
+font-size: medium;
+}
+.text-img{
+position: absolute;
+top: 45%;
+left: 10%;
+}
+.world .box2 .text-img a{
+border: 1px solid black;
+background-color: rgb(104, 198, 235);
+color:rgb(14, 8, 8);
+font-size: medium;
+padding: 10px;
+text-decoration: none;
+}
+.world .box2 .text-img a:hover{
+background-color: white;
+color: black;
+}
+.footer p{
+text-align: center;
+color: white;
+margin:10px;
+padding: 10px;
+}
+.container .box1 img{
+position:relative;
+}
+.container .box1 .text-img1{
+margin-top: 20%;
+left: 10%;
+position:absolute;
+text-align: center;
+color: rgb(190, 25, 25);
+}
+.container .box1 .text-img2{
+top:200%;
+left: 10%;
+position:absolute;
+text-align: center;
+color: white;
+}
+span{
+    text-decoration: underline;
+}
